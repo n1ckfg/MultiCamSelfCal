@@ -29,3 +29,6 @@ def check_mcsc(path):
     target_dir = tempfile.mkdtemp(prefix='result-',dir=calib_dir)
     caldir = mcsc.execute(silent=True)
     assert os.path.exists(caldir)
+
+test_mcsc()
+

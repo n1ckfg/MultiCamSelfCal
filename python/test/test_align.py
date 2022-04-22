@@ -64,3 +64,5 @@ def test_align():
     ## print('T')
     ## print(T)
 
+test_align()
+
